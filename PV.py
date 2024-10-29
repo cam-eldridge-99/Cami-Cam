@@ -34,6 +34,8 @@ panelArea = pv_area(ourPanel)
 
 numPanels = math.floor(roof_area / panelArea)
 
+powerDelivered = ourPanel.pv_power * numPanels / 1000
+
 print("Each panel is {:.2f} square meters.\n".format(panelArea))
 
-print("The roof will fit {} panels.".format(numPanels))
+print("The roof will fit {} panels and deliver {:.2f} kw.".format(numPanels, powerDelivered))
