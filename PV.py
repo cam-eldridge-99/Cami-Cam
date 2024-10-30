@@ -29,7 +29,7 @@ def pv_area(self):
 
 roof_area=find_roof_area()
 
-ourPanel = pvPanel( 1690, 1046, 400)
+ourPanel = pvPanel(1690, 1046, 400)
 
 panelArea = pv_area(ourPanel)
 
