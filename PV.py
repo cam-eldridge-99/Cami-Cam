@@ -4,7 +4,6 @@ Spyder Editor
 
 This is a temporary script file.
 """
-
 import math
 
 def find_roof_area():
